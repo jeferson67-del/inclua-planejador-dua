@@ -298,11 +298,10 @@ FEW_SHOT_EXAMPLES = {
 
 # 4. FUNÇÕES DE GERAÇÃO (2 MODOS PARA O EXPERIMENTO COMPARATIVO)
 def LLM_Setup(prompt_text):
-    # O modelo gemini-1.5-pro é excelente para o raciocínio complexo do DUA
     model = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro",
+        model="gemini-3.1-flash-lite",  # <-- Altere apenas o nome do modelo aqui
         google_api_key=os.getenv('GOOGLE_API_KEY'),
-        temperature=0.0
+        temperature=0.3
     )
     parser = StrOutputParser()
     chain = model | parser
