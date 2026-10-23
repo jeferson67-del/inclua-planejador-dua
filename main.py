@@ -441,7 +441,7 @@ aba_gerador, aba_comparativo = st.tabs([
 # ABA 1 — GERADOR PRINCIPAL (modo ICL)
 
 with aba_gerador:
-    st.subheader("Gerador com ICL Estático")
+    st.subheader("Gerador com ICL")
 
     col1, col2 = st.columns(2)
     with col1:
