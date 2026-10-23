@@ -429,7 +429,7 @@ def export_to_pdf(conteudos: dict, subject, topic):
 st.title('🎓 Inclua: Planejador Inclusivo')
 st.markdown("""
 Ferramenta de pesquisa para geração de planos de aula inclusivos com  
-**In-Context Learning Estático** alinhado ao **Desenho Universal para a Aprendizagem (DUA)**.
+**In-Context Learning** alinhado ao **Desenho Universal para a Aprendizagem (DUA)**.
 """)
 
 aba_gerador, aba_comparativo = st.tabs([
