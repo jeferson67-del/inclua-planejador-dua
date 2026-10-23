@@ -455,7 +455,7 @@ with aba_gerador:
         topic_input = st.text_input(
             'Tópico da Aula', placeholder="Ex: Algoritmos", key="g_topic")
         duration_input = st.text_input(
-            'Duração (min)', placeholder="Ex: 50", key="g_dur")
+            'Duração (min)', placeholder="Ex: 50 minutos", key="g_dur")
 
     perfil_turma = st.multiselect(
         "Perfis de Inclusão na Turma",
